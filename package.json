@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "leaflet-rotatedmarker": "^0.2.0",
+    "nuxt": "^3.10.3",
+    "nuxt-leaflet": "^0.0.27",
+    "valibot": "^0.30.0",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "eslint": "^8.57.0",
+    "leaflet": "^1.9.4",
+    "nuxt3-leaflet": "^1.0.12"
+  }
+}
